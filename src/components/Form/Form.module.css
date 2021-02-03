@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* width: 280px; */
+  height: 90px;
+
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.label {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.input {
+  margin-left: 10px;
+}
+
+.button {
+  padding: 3px;
+  width: 100px;
+  border: none;
+  outline: 0;
+  border-radius: 4px;
+  background-color: rgb(169, 179, 179);
+}
+
+.button:hover {
+  background-color: rgb(12, 177, 86);
+  color: white;
+  border: none;
+}
